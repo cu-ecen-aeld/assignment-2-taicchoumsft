@@ -11,7 +11,7 @@ content=$2
 d=$(dirname "$file")
 
 if [ ! -d "$d" ]; then
-    mkdir $d
+    mkdir -p $d
     echo "base is: $base"
     echo "file: $file"
 
